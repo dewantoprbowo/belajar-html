@@ -1,0 +1,54 @@
+a{
+    text-decoration: none;
+}
+.top-bar{
+    background-color: rgb(224, 224, 224);
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 30px 20px 25px;
+}
+.menu{
+    display: flex;
+}
+.menu-item{
+    margin-left: 20px;
+}
+.container{
+    width: 1300px;
+    margin: 0 auto;
+}
+.banner img{
+    width: 100%;
+    z-index: 1;
+}
+.banner{
+    width: 100%;
+    position: relative;
+    z-index: 1;
+    /* height: 100px; */
+}
+.banner .caption{
+    position: absolute;
+    z-index: 2;
+    top: 50px;
+    left: 50%;
+    margin-left: 50%;
+    text-align: center;
+    color:rgb(255, 255, 255);
+}
+.banner-2{
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    background-image: url('https://zerowaste.id/wp-content/uploads/2020/07/perbedaan-food-loss-dan-food-waste.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.banner-2 .caption{
+    margin: 0 auto;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+    
